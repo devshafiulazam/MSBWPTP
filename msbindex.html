@@ -8,6 +8,13 @@
   background-color: lightblue;
   text-align: center;
 }
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+        
 </style>
 
         
@@ -256,9 +263,82 @@ The <span> tag is much like the <div> element, but <div> is a block-level elemen
 
         The <style> element must be included inside the <head> section of the document.
         -->      
-        <!--   -->    
-        <!--   -->    
-        <!--   -->    
+        <!-- 
+        The <table> tag defines an HTML table.
+
+        An HTML table consists of one <table> element and one or more <tr>, <th>, and <td> elements.
+
+        The <tr> element defines a table row, the <th> element defines a table header, and the <td> element defines a table cell.
+        -->    
+        <table>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</table>
+
+        <!-- To make a cell span over multiple columns, use the colspan attribute: -->
+    <table>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th colspan="2">Phone</th>
+  </tr>
+  <tr>
+    <td>John Doe</td>
+    <td>john.doe@example.com</td>
+    <td>123-45-678</td>
+    <td>212-00-546</td>
+  </tr>
+</table>
+        
+        <!-- To make a cell span over multiple rows, use the rowspan attribute  -->    
+        <table>
+          <tr>
+            <th>Name</th>
+            <td>Jill</td>
+          </tr>
+          <tr>
+            <th rowspan="2">Phone</th>
+            <td>555-1234</td>
+          </tr>
+          <tr>
+            <td>555-8745</td>
+          </tr>
+        </table>
+
+        
+        <!--  The <form> tag is used to create an HTML form for user input.
+
+          The <form> element can contain one or more form elements -->   
+
+        <form action="/action_page.php" method="get">
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          <input type="submit" value="Submit">
+        </form>
+
+        <form action="/action_page.php" method="get">
+          <input type="checkbox" name="vehicle1" value="Bike">
+          <label for="vehicle1"> I have a bike</label><br>
+          <input type="checkbox" name="vehicle2" value="Car">
+          <label for="vehicle2"> I have a car</label><br>
+          <input type="checkbox" name="vehicle3" value="Boat" checked>
+          <label for="vehicle3"> I have a boat</label><br><br>
+          <input type="submit" value="Submit">
+        </form>
+
+        
         <!--   -->    
         <!--   -->    
         
