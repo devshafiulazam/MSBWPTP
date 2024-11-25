@@ -193,63 +193,75 @@ A screen reader will pronounce the words in <em> with an emphasis, using verbal 
 
 
 
-<!-- The <img> tag is used to embed an image in an HTML page.
+        <!-- 
+        The <img> tag is used to embed an image in an HTML page.
 
-Images are not technically inserted into a web page; images are linked to web pages. The <img> tag creates a holding space for the referenced image.
-
-The <img> tag has two required attributes:
-
-src - Specifies the path to the image
-alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed
+        Images are not technically inserted into a web page; images are linked to web pages. The <img> tag creates a holding space for the referenced image.
+        
+        The <img> tag has two required attributes:
+        
+        src - Specifies the path to the image
+        alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed
         -->   
 
- <p><img src="data:image/png;base64,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" alt="Smiley face" width="42" height="42"> 
-     This is some text. This is some text. This is some text.</p>       
+         <p><img src="data:image/png;base64,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" alt="Smiley face" width="42" height="42"> 
+         This is some text. This is some text. This is some text.</p>       
 
-<!-- Use a <figure> element to mark up a photo in a document, and a <figcaption> element to define a caption for the photo:  -->    
+   <!--
+        Use a <figure> element to mark up a photo in a document, and a <figcaption> element 
+        to define a caption for the photo: 
+    -->    
 
-<figure>
-  <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
-  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-</figure>
+    <figure>
+      <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+      <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+    </figure>
         
-<!-- The <script> tag is used to embed a client-side script (JavaScript).  -->    
-<script>
-document.getElementById("demo").innerHTML = "Hello JavaScript!";
-</script>
-<!-- The <noscript> tag defines an alternate content to be displayed to users 
-        that have disabled scripts in their browser or have a browser that doesn't support script.  -->    
-<script>
-document.write("Hello World!")
-</script>
-<noscript>Your browser does not support JavaScript!</noscript>
+   <!-- The <script> tag is used to embed a client-side script (JavaScript).  -->   
+        
+        <script>
+        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+        </script>
 
         
-<!-- The <section> tag defines a section in a document.  -->    
-<section>
-  <h2>WWF History</h2>
-  <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
-</section>
-
-<section>
-  <h2>WWF's Symbol</h2>
-  <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
-</section>
+       <!-- The <noscript> tag defines an alternate content to be displayed to users 
+        that have disabled scripts in their browser or have a browser that doesn't support script. 
+        -->    
+        <script>
+        document.write("Hello World!")
+        </script>
+        <noscript>Your browser does not support JavaScript!</noscript>
 
         
-<!-- The <span> tag is an inline container used to mark up a part of a text, or a part of a document.
+        <!-- The <section> tag defines a section in a document.  -->    
+        <section>
+          <h2>WWF History</h2>
+          <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+        </section>
+        
+        <section>
+          <h2>WWF's Symbol</h2>
+          <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+        </section>
 
-The <span> tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute.
+        
+  <!-- 
+        The <span> tag is an inline container used to mark up a part of a text, or a part of a document.
 
-The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element.  -->   
+        The <span> tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute.
+        
+        The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element.  
+        -->   
 
         <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+        
         <!-- The <small> tag defines smaller text (like copyright and other side-comments).  -->
 
         <p>This is some normal text.</p>
-<p><small>This is some smaller text.</small></p>
+        <p><small>This is some smaller text.</small></p>
         
-        <!-- The <sub> tag defines subscript text. Subscript text appears half a character below the normal line, 
+        <!-- 
+        The <sub> tag defines subscript text. Subscript text appears half a character below the normal line, 
         and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O.
         -->   
 
@@ -271,34 +283,34 @@ The <span> tag is much like the <div> element, but <div> is a block-level elemen
         The <tr> element defines a table row, the <th> element defines a table header, and the <td> element defines a table cell.
         -->    
         <table>
-  <tr>
-    <th>Month</th>
-    <th>Savings</th>
-  </tr>
-  <tr>
-    <td>January</td>
-    <td>$100</td>
-  </tr>
-  <tr>
-    <td>February</td>
-    <td>$80</td>
-  </tr>
-</table>
+          <tr>
+            <th>Month</th>
+            <th>Savings</th>
+          </tr>
+          <tr>
+            <td>January</td>
+            <td>$100</td>
+          </tr>
+          <tr>
+            <td>February</td>
+            <td>$80</td>
+          </tr>
+        </table>
 
         <!-- To make a cell span over multiple columns, use the colspan attribute: -->
-    <table>
-  <tr>
-    <th>Name</th>
-    <th>Email</th>
-    <th colspan="2">Phone</th>
-  </tr>
-  <tr>
-    <td>John Doe</td>
-    <td>john.doe@example.com</td>
-    <td>123-45-678</td>
-    <td>212-00-546</td>
-  </tr>
-</table>
+      <table>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th colspan="2">Phone</th>
+          </tr>
+          <tr>
+            <td>John Doe</td>
+            <td>john.doe@example.com</td>
+            <td>123-45-678</td>
+            <td>212-00-546</td>
+          </tr>
+        </table>
         
         <!-- To make a cell span over multiple rows, use the rowspan attribute  -->    
         <table>
@@ -339,7 +351,35 @@ The <span> tag is much like the <div> element, but <div> is a block-level elemen
         </form>
 
         
-        <!--   -->    
+        <!--  
+        The <li> tag defines a list item.
+
+            The <li> tag is used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>).
+            
+            In <ul> and <menu>, the list items will usually be displayed with bullet points.
+            
+            In <ol>, the list items will usually be displayed with numbers or letters.
+        -->  
+       
+        <ul>
+          <li>Coffee</li>
+          <li>Tea
+            <ul>
+              <li>Black tea</li>
+              <li>Green tea</li>
+            </ul>
+          </li>
+          <li>Milk</li>
+        </ul>
+
+        <ol>
+          <li value="100">Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+          <li>Water</li>
+          <li>Juice</li>
+          <li>Beer</li>
+        </ol>
         <!--   -->    
         
 
