@@ -85,7 +85,18 @@ Inline CSS
 
 */
 
-/*  */
+/* 
+Internal CSS is first Priority where as inline css is first priority
+
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<style>
+h1 {
+  color: orange;
+}
+</style>
+</head>
+*/
 
 /*  */
 
