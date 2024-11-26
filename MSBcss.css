@@ -138,9 +138,20 @@ p.center {
 /* Define different HEX colors with transparency: */
 #p1a {background-color: #ff000080;}   /* red transparency */
 
-/*  */
+/* RGB Colors  */
+#p5 {background-color:rgb(255,255,0);}
 
-/*  */
+
+#p3 {background-color: rgba(0, 0, 255, 0.3);}   /* blue with opacity */
+
+/*  HSL stands for hue, saturation, and lightness  */
+#p22 {background-color: hsl(120, 100%, 75%);}   /* light green */
+
+#myDIV {
+  color: blue; /* Blue text color */
+  border: 10px solid currentcolor; /* Blue border color */
+}
+
 
 /*  */
 
