@@ -153,9 +153,39 @@ p.center {
 }
 
 
-/*  */
+/* 
+The background property is a shorthand property for:
 
-/*  */
+background-color
+background-image
+background-position
+background-size
+background-repeat
+background-origin
+background-clip
+background-attachment
+
+
+CSS accent-color
+
+*/
+.myform input {
+  accent-color: pink;
+}
+
+
+/* background: lightblue url("img_tree.gif") no-repeat fixed center;   */
+
+#myDIV1 {
+  height:300px;
+  padding:20px;
+  background-color:#FFFFFF;
+  border: 1px solid black;
+  border-top-right-radius:50px;
+  border-top-left-radius:100px;
+  text-align:center;
+}
+
 
 /*  */
 
