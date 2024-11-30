@@ -66,3 +66,61 @@ Settings
  - Permalinks
  - Privacy
 
+
+Post 
+Add new
+
+Using Gutenbearb Editor
+
+Add Title
+
+Set Dummy text...
+
+Set image block
+
+Post Add new category ....
+Tags ... Add new tags
+
+Excerps .... Read More option
+Comment Option
+
+
+Page Making
+Home
+About us
+blog
+contact us
+
+Show all pages (edit delete)
+
+
+Applearnce... twenty thwenty theme .. default now...
+
+Download Theme file
+Add Themes ... Upload theme ... choose file  .... install now.
+
+Theme two types
+Classic
+Blog Base
+
+Customizer option
+Menu Widzerd ....
+
+Theme ... Shown Website main structure
+Plugin... Add feature in website
+
+Add Plugin... Dowload ... Add plugin ... 
+
+User add ... User role.. setup... assign ... 
+
+Gravator id create ... and image upload
+
+Export ... Import...
+Setting... register... default user....
+Menu collapse 
+
+Dummy post plugin
+FakerPress
+
+Reading setup Home  Blog
+Making Menu
