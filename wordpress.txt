@@ -3,3 +3,66 @@ and Matt Mullenweg created a fork of b2/cafelog. The need for an elegant,
 well-architected personal publishing system was clear even then. 
 Today, WordPress is built on PHP and MySQL, and licensed under the GPLv2. 
 It is also the platform of choice for over 43% of all sites across the web.
+
+Install xampp
+Install wordpress with create databas 
+
+localhost/msbwptp/wp-admin
+admin
+admin
+
+datacanvassbd@gmail.com
+!Railway1234@
+
+Dashboard
+Home - updates
+
+Posts
+  - All Posts
+  - Add New Post
+  - Categories
+  - Tags
+
+Media
+  - Library
+  - Add New Media File
+
+Pages
+  - All Pages
+  - Add New Page
+
+Comments
+
+Appearance
+   - Themes
+   - Editor
+
+Plugins
+  - Installed Plugins
+  - Add New Plugin
+
+Users
+ - All Users
+ - Add New User
+ - Profile
+
+Tools
+ - Available Tools
+ - Import
+ - Export
+ - Site Health
+ - Export Personal Data
+ - Erase Personal Data
+ - Theme File Editor
+ - Plugin File Editor
+
+
+Settings
+ - General
+ - Writing
+ - Reading
+ - Discussion
+ - Media
+ - Permalinks
+ - Privacy
+
