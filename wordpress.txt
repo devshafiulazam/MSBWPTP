@@ -1,0 +1,5 @@
+WordPress is open source software.WordPress started in 2003 when Mike Little 
+and Matt Mullenweg created a fork of b2/cafelog. The need for an elegant, 
+well-architected personal publishing system was clear even then. 
+Today, WordPress is built on PHP and MySQL, and licensed under the GPLv2. 
+It is also the platform of choice for over 43% of all sites across the web.
